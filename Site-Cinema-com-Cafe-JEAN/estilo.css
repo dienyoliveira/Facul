@@ -1,0 +1,323 @@
+/*CSS - CSS3*/
+a:link, a:visited, a:hover, a:active {
+	text-decoration:none;
+	color:#222;
+}
+
+img {
+	border:0px;
+}
+
+head {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+}
+
+body {
+	background:url(img/bg_aorigemdosguardioes.jpg) center fixed #FFF; /*bg.png*/
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	font-family: "lucida grande",tahoma,arial,verdana,sans-serif;
+	color:#222;
+
+	user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 	
+	-webkit-user-select: none;
+}
+
+#bg2 {
+	/*background:url(img/faixas.png) no-repeat 50% 0%; */
+	width: 100%;
+	height: 100%;
+	min-height:1000px;
+	min-width:990px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.logo {
+	text-indent: -9999px;
+	background: url('img/logo-cinema-cafe.png') no-repeat;
+	width: 540px;
+	height: 215px;
+	margin:0 auto;
+}
+
+
+.wrap {
+	padding: 0px;
+	width: 988px;
+	margin: 0px auto;
+	text-align: center;
+	position:relative;
+	z-index:5;
+	
+}
+
+.main-menu {
+	padding: 0px;
+	width: 988px;
+	margin: 10px 0px;
+	height: 33px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #E1E1E1;
+	color:#6B6B6B;
+	cursor:default;
+	background: url('img/white.png');
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.main-menu a:link, .main-menu a:visited {
+	color:#50C2C3;
+	cursor:pointer;
+	font-size: 24px;
+}
+
+.main-menu a:hover, .main-menu a:active {
+	color:#6B6B6B;
+	cursor:pointer;
+	font-size: 24px;
+}
+
+.activecat, .activecat a:link, .activecat a:visited, .activecat a:hover, .activecat a:active {
+	color:#6B6B6B !important;
+	border-bottom: 2px solid;
+	font-size: 24px;
+}
+
+.main-border {
+	border-top:14px solid #6b6b6b;
+	padding: 0px;
+	width: 990px;
+	margin: 0px auto;
+	height: 100%;
+	min-height:822px;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	position:relative;
+	z-index:1;
+}
+
+.content {
+	padding: 0px;
+	width: 960px;
+	margin: 0px auto;
+	min-height:822px;	
+	background:#FFF;
+	-webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	-webkit-box-shadow: inset 1px 2px 1px 5px #6B6B6B ;
+    box-shadow: inset 1px 2px 1px 5px #6B6B6B ;
+	position: relative;
+	z-index: 2;
+	border-left:3px solid #6b6b6b;
+	border-right:3px solid #6b6b6b;
+	overflow:hidden;
+	clear:none;
+}
+
+.stretch-left {
+	left:0px;
+	width:30px;
+	height:100%;
+	position:absolute;
+	background-size: 30px 100%;
+	background-image: url(img/stretch-left.png);
+	background-repeat: no-repeat;
+}
+
+.stretch-right {
+	right:0px;
+	width:30px;
+	height:100%;
+	position:absolute;
+	background-size: 30px 100%;
+	background-image: url(img/stretch-right.png);
+	background-repeat: no-repeat;
+}
+
+.footer {
+	background:url(img/shadowft.png) repeat-x #50c3c3;
+	height:110px;
+	width:100%;
+	min-width:990px;
+}
+
+.footer-wrap {
+	padding: 0px;
+	width: 960px;
+	margin: 0px auto;
+	height: 100%;
+	text-align: center;
+}
+
+.logo-white {
+	width:255px;
+	height:45px;
+	float:left;
+	margin-top:18px;
+}
+
+.sociais {
+	width:85px;
+	height:40px;
+	float:right;
+	margin-top:21px;
+}
+
+#submit:active, #tdomf_form1_send:active {
+	-moz-box-shadow:inset 0.5px 1px 2px #6B6B6B;
+	-webkit-box-shadow:inset 0.5px 1px 2px #6B6B6B;
+	box-shadow:inset 0.5px 1px 2px #6B6B6B;
+	background-color: #6B6B6B;
+	background-image: -webkit-linear-gradient(top,#CECECE,#989898);
+	background-image: -moz-linear-gradient(top,#CECECE,#989898);
+	background-image: -ms-linear-gradient(top,#CECECE,#989898);
+	background-image: -o-linear-gradient(top,#CECECE,#989898);
+	background-image: linear-gradient(top,#CECECE,#989898);
+	border: 1px solid #6B6B6B;
+	line-height: 28px;
+	padding:2px 0px 0px 2px;
+	width:180px;
+	height:30px;
+}
+
+
+.botao:hover {
+	background-color: #ca4942;
+	background-image: -webkit-linear-gradient(top,#cf5a54,#b8332c);
+	background-image: -moz-linear-gradient(top,#cf5a54,#b8332c);
+	background-image: -ms-linear-gradient(top,#cf5a54,#b8332c);
+	background-image: -o-linear-gradient(top,#cf5a54,#b8332c);
+	background-image: linear-gradient(top,#cf5a54,#b8332c);
+	border: 1px solid #ab2f29;
+}
+
+.botao:active {
+	-moz-box-shadow:inset 0.5px 1px 2px #852520;
+	-webkit-box-shadow:inset 0.5px 1px 2px #852520;
+	box-shadow:inset 0.5px 1px 2px #852520;
+	background-color: #ca4942;
+	background-image: -webkit-linear-gradient(top,#cf5a54,#b8332c);
+	background-image: -moz-linear-gradient(top,#cf5a54,#b8332c);
+	background-image: -ms-linear-gradient(top,#cf5a54,#b8332c);
+	background-image: -o-linear-gradient(top,#cf5a54,#b8332c);
+	background-image: linear-gradient(top,#cf5a54,#b8332c);
+	border: 1px solid #ab2f29;
+	width:236px;
+	height:30px;
+	line-height:30px;
+	padding:2px 0px 0px 2px;
+}
+
+
+ul {
+	margin:0px;
+	padding:0px;
+}
+
+.main-content {
+	float:right;
+	width:640px;
+	margin:20px;
+	text-align:left;
+}
+
+.gray-border {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border:1px solid #afafaf;
+	background:#f0f0f0;
+	padding:6px;
+	margin-bottom:30px;
+	-moz-box-shadow: 1px 1px 5px #909090;
+	-webkit-box-shadow: 1px 1px 5px #909090;
+	box-shadow: 1px 1px 5px #909090;
+}
+
+
+
+
+.white, .white-page, .white {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border:1px solid #afafaf;
+	background:#FFF;
+	width:554px;
+	padding:5px 35px 30px 35px;
+	position:relative;
+	box-shadow: inset 0px 0px 10px #AFAFAF;
+	-moz-box-shadow: inset 0px 0px 10px #AFAFAF;
+	-webkit-box-shadow: inset 0px 0px 10px #AFAFAF;
+	text-decoration:none;
+}
+
+
+h1, h2, h3 {
+	font-size:22px;
+	font-weight:bold;
+	margin-top: 18px;
+	margin-bottom: 18px;
+}
+
+p, td, span {
+	font-size:12px;
+	line-height: 18px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+p a:link, p a:visited {
+	text-decoration:underline;
+}
+
+p a:hover, p a:active {
+	color:#CA4942;
+}
+
+hr {
+	width:100%;
+	height:2px;
+	background:#AFAFAF;
+	color:#AFAFAF;
+	border:0px;
+}
+
+
+.attachment-post-thumbnail, .attachment-thumbnail {
+	float:left;
+	margin:0px 20px 10px 10px;
+}
+
+
+
+.image {
+	width:150px;
+	height:200px;
+	background-position: center center;
+	background-repeat:no-repeat;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+
